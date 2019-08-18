@@ -1,0 +1,15 @@
+# Kconfig - nRF51 BVMCN510x board configuration
+#
+# Copyright (c) 2019 hiro99ma
+#
+# SPDX-License-Identifier: Apache-2.0
+
+if BOARD_NRF51_BVMCN51
+
+config BOARD
+	default "nrf51_bvmcn51"
+
+config BT_CTLR
+	default BT
+
+endif # BOARD_NRF51_BVMCN51
